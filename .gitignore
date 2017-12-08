@@ -99,3 +99,8 @@ ENV/
 
 # mypy
 .mypy_cache/
+**.png
+**.pdf
+**.pyc
+data/
+trained_models/
