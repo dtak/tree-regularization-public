@@ -59,7 +59,7 @@ class GRUTree(object):
         self.pred_fun = self.gru.pred_fun
         self.weights = self.gru.weights
         # save final decision tree
-        self.tree = self.fit_tree(self.weights, X_train, F_train, y_train)
+        self.tree = self.gru.fit_tree(self.weights, X_train, F_train, y_train)
 
         return self.weights
 
